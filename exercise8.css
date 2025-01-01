@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navbar */
+.bg-pink {
+    background-color: #1814ff !important; /* Hot pink */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffe4e1; /* Light pink */
+}
+
+/* Hero Section */
+.header {
+    background: #f8f9fa;
+    padding: 5rem 0;
+}
+
+/* Footer */
+footer {
+    background: #14a9ff;
+    color: white;
+    padding: 1rem 0;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #1814ff !important; /* Hot pink */
+    border-color: #14a9ff !important;
+}
+
+.btn-primary:hover {
+    background-color: #14a9ff!important; /* Lighter pink */
+    border-color: #14a9ff !important;
+}
+
+/* Services Section */
+.card {
+    background: #ffff;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card .icon {
+    color: #1814ff;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+/* Add hover effect for icons */
+.card .icon i:hover {
+    color: #1814ff;
+    transition: color 0.3s ease;
+}
+
+/* Highlighted Section Titles */
+.highlight {
+    background-color: #e1f5ff; /* Light pink */
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Center Alignment for Section Titles */
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
